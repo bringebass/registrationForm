@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --success-color: green;
+  --error-color: red;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border: solid 1px lightgrey;
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.input {
+  border: solid lightgray 1px;
+  display: block;
+  margin: 5px 0px;
+}
+
+.error {
+  border: solid red 1px;
+}
+
+.message {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: true;
+}
